@@ -1,6 +1,6 @@
 import React from 'react';
-import { hero } from "../data";
 import Stats from "../components/Stats";
+import { hero } from "../data";
 
 const Hero = () => {
   const {title, subtitle, buttonText} = hero;
@@ -15,7 +15,7 @@ const Hero = () => {
          <h1 className='text-2xl lg:text-6xl mx-auto font-semibold 
           mb-[30px] lg:text-[64px] lg:leading-text lg:max-w-[888px]'
         >
-          {title}
+          {title} marwan saputro
         </h1>
         {/* subtitle */}
         <h2 className='mb-[30px] max-w-[627px] mx-auto
